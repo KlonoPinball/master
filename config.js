@@ -11,10 +11,10 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Helix',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -23,17 +23,17 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', //  'lists',
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '07d14d0787675dd5e6367b85ca953977', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '49.727470',
+	defaultLongitude: '-112.630791',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'play',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Braflix',
+					link: 'https://www.braflix.app',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'himovies',
+					link: 'https://www5.himovies.to/home',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'HiAnime',
+					link: 'https://hianime.to/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'dramas',
+					link: 'https://goplay.su/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'arrow-down-to-line',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'PSA',
+					link: 'https://psa.wf',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Lucida Music',
+					link: 'https://lucida.to/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Avistaz',
+					link: 'https://avistaz.to/torrents',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: '1337',
+					link: 'https://1337x.to',
 				},
 			],
 		},
@@ -183,48 +183,49 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'mouse-pointer-2',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'IMDB',
+					link: 'https://www.imdb.com',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'Amazon',
+					link: 'https://www.amazon.ca',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Jackett',
+					link: 'http://127.0.0.1:9117/UI/Dashboard#search',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Songsterr',
+					link: 'https://www.songsterr.com',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'gamepad-2',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Crackwatch',
+					link: 'https://www.reddit.com/r/CrackWatch',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'gog-games',
+					link: 'https://gog-games.to',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'OVA',
+					link: 'https://www.ovagames.com',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Piracy',
+					link: 'https://www.reddit.com/r/Piracy/wiki/megathread/',
 				},
 			],
 		},
 	],
 };
+
